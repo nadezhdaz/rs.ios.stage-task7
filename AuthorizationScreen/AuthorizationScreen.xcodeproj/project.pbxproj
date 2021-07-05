@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41D108B926909850000500A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D108B826909850000500A6 /* AppDelegate.m */; };
+		41D108C426909853000500A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41D108C326909853000500A6 /* Assets.xcassets */; };
+		41D108C726909853000500A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D108C526909853000500A6 /* LaunchScreen.storyboard */; };
+		41D108CA26909853000500A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D108C926909853000500A6 /* main.m */; };
+		41D108D52690A8FC000500A6 /* AuthorizationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D108D32690A8FC000500A6 /* AuthorizationViewController.m */; };
+		41D108D62690A8FC000500A6 /* AuthorizationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41D108D42690A8FC000500A6 /* AuthorizationViewController.xib */; };
+		41D108E12691D196000500A6 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41D108E02691D195000500A6 /* Colors.xcassets */; };
+		41D108E526921EB4000500A6 /* UIButton+BackgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D108E426921EB4000500A6 /* UIButton+BackgroundColor.m */; };
+		41F588DB2692E7CC00803562 /* RefreshAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F588DA2692E7CC00803562 /* RefreshAlertViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		41D108B426909850000500A6 /* AuthorizationScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuthorizationScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41D108B726909850000500A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		41D108B826909850000500A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		41D108C326909853000500A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41D108C626909853000500A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		41D108C826909853000500A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41D108C926909853000500A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41D108D22690A8FC000500A6 /* AuthorizationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AuthorizationViewController.h; sourceTree = "<group>"; };
+		41D108D32690A8FC000500A6 /* AuthorizationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AuthorizationViewController.m; sourceTree = "<group>"; };
+		41D108D42690A8FC000500A6 /* AuthorizationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AuthorizationViewController.xib; sourceTree = "<group>"; };
+		41D108E02691D195000500A6 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		41D108E326921EB4000500A6 /* UIButton+BackgroundColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+BackgroundColor.h"; sourceTree = "<group>"; };
+		41D108E426921EB4000500A6 /* UIButton+BackgroundColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+BackgroundColor.m"; sourceTree = "<group>"; };
+		41F588D92692E7CC00803562 /* RefreshAlertViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RefreshAlertViewController.h; sourceTree = "<group>"; };
+		41F588DA2692E7CC00803562 /* RefreshAlertViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RefreshAlertViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41D108B126909850000500A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41D108AB26909850000500A6 = {
+			isa = PBXGroup;
+			children = (
+				41D108B626909850000500A6 /* AuthorizationScreen */,
+				41D108B526909850000500A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41D108B526909850000500A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41D108B426909850000500A6 /* AuthorizationScreen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41D108B626909850000500A6 /* AuthorizationScreen */ = {
+			isa = PBXGroup;
+			children = (
+				41D108B726909850000500A6 /* AppDelegate.h */,
+				41D108B826909850000500A6 /* AppDelegate.m */,
+				41D108D42690A8FC000500A6 /* AuthorizationViewController.xib */,
+				41D108D22690A8FC000500A6 /* AuthorizationViewController.h */,
+				41D108D32690A8FC000500A6 /* AuthorizationViewController.m */,
+				41F588D92692E7CC00803562 /* RefreshAlertViewController.h */,
+				41F588DA2692E7CC00803562 /* RefreshAlertViewController.m */,
+				41D108E326921EB4000500A6 /* UIButton+BackgroundColor.h */,
+				41D108E426921EB4000500A6 /* UIButton+BackgroundColor.m */,
+				41D108C326909853000500A6 /* Assets.xcassets */,
+				41D108E02691D195000500A6 /* Colors.xcassets */,
+				41D108C526909853000500A6 /* LaunchScreen.storyboard */,
+				41D108C826909853000500A6 /* Info.plist */,
+				41D108C926909853000500A6 /* main.m */,
+			);
+			path = AuthorizationScreen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41D108B326909850000500A6 /* AuthorizationScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41D108CD26909853000500A6 /* Build configuration list for PBXNativeTarget "AuthorizationScreen" */;
+			buildPhases = (
+				41D108B026909850000500A6 /* Sources */,
+				41D108B126909850000500A6 /* Frameworks */,
+				41D108B226909850000500A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AuthorizationScreen;
+			productName = AuthorizationScreen;
+			productReference = 41D108B426909850000500A6 /* AuthorizationScreen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41D108AC26909850000500A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					41D108B326909850000500A6 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 41D108AF26909850000500A6 /* Build configuration list for PBXProject "AuthorizationScreen" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41D108AB26909850000500A6;
+			productRefGroup = 41D108B526909850000500A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41D108B326909850000500A6 /* AuthorizationScreen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41D108B226909850000500A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41D108C726909853000500A6 /* LaunchScreen.storyboard in Resources */,
+				41D108E12691D196000500A6 /* Colors.xcassets in Resources */,
+				41D108C426909853000500A6 /* Assets.xcassets in Resources */,
+				41D108D62690A8FC000500A6 /* AuthorizationViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41D108B026909850000500A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41D108D52690A8FC000500A6 /* AuthorizationViewController.m in Sources */,
+				41D108E526921EB4000500A6 /* UIButton+BackgroundColor.m in Sources */,
+				41D108B926909850000500A6 /* AppDelegate.m in Sources */,
+				41F588DB2692E7CC00803562 /* RefreshAlertViewController.m in Sources */,
+				41D108CA26909853000500A6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		41D108C526909853000500A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41D108C626909853000500A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41D108CB26909853000500A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		41D108CC26909853000500A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41D108CE26909853000500A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HPK5P2C2Q2;
+				INFOPLIST_FILE = AuthorizationScreen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nadezhda.AuthorizationScreen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41D108CF26909853000500A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HPK5P2C2Q2;
+				INFOPLIST_FILE = AuthorizationScreen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nadezhda.AuthorizationScreen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41D108AF26909850000500A6 /* Build configuration list for PBXProject "AuthorizationScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41D108CB26909853000500A6 /* Debug */,
+				41D108CC26909853000500A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41D108CD26909853000500A6 /* Build configuration list for PBXNativeTarget "AuthorizationScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41D108CE26909853000500A6 /* Debug */,
+				41D108CF26909853000500A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41D108AC26909850000500A6 /* Project object */;
+}

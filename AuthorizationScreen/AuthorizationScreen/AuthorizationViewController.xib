@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AuthorizationViewController">
+            <connections>
+                <outlet property="authorizeButton" destination="gk4-dM-c4D" id="2U5-ZZ-zgO"/>
+                <outlet property="loginTextField" destination="JzV-hE-PUW" id="VfI-SF-4he"/>
+                <outlet property="oneButton" destination="TBQ-4A-vtv" id="ygP-oX-5bD"/>
+                <outlet property="passwordTextField" destination="GFC-fU-B2k" id="lKA-7E-cVm"/>
+                <outlet property="resultLabel" destination="eto-hj-NTQ" id="87h-ff-O5t"/>
+                <outlet property="secureView" destination="X0i-ff-xCC" id="eJz-Xj-0PY"/>
+                <outlet property="textLabel" destination="aDg-Yo-Wea" id="eoD-x1-Fqy"/>
+                <outlet property="threeButton" destination="r23-w4-CwI" id="yeD-Zh-Ijq"/>
+                <outlet property="twoButton" destination="8E7-Mr-sKQ" id="fxk-Qy-lEV"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aDg-Yo-Wea" userLabel="Text Label">
+                    <rect key="frame" x="143.5" y="80" width="88.5" height="42"/>
+                    <attributedString key="attributedText">
+                        <fragment content="Label">
+                            <attributes>
+                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                <font key="NSFont" size="36" name="SFProDisplay-Bold"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JzV-hE-PUW" userLabel="Login Text Field">
+                    <rect key="frame" x="36" y="202" width="303" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GFC-fU-B2k" userLabel="Password Text Field">
+                    <rect key="frame" x="36" y="266" width="303" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X0i-ff-xCC" userLabel="Secure View">
+                    <rect key="frame" x="77" y="507" width="236" height="110"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="_" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eto-hj-NTQ" userLabel="Result Label">
+                            <rect key="frame" x="113.5" y="15" width="9" height="21"/>
+                            <fontDescription key="fontDescription" name="SFProText-Semibold" family="SF Pro Text" pointSize="18"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TBQ-4A-vtv" userLabel="One Button">
+                            <rect key="frame" x="23" y="45" width="50" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="s6V-WF-iPy"/>
+                                <constraint firstAttribute="width" constant="50" id="wTF-gM-9Cm"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="SFProText-Semibold" family="SF Pro Text" pointSize="24"/>
+                            <state key="normal" title="1">
+                                <color key="titleColor" name="ASLittleBoyBlue"/>
+                            </state>
+                            <connections>
+                                <action selector="pressOneButton:" destination="-1" eventType="touchUpInside" id="N06-fy-Skv"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8E7-Mr-sKQ" userLabel="Two Button">
+                            <rect key="frame" x="93" y="45" width="50" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="50" id="9v5-lK-GeB"/>
+                                <constraint firstAttribute="height" constant="50" id="SxH-wI-swE"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="SFProText-Semibold" family="SF Pro Text" pointSize="24"/>
+                            <state key="normal" title="2">
+                                <color key="titleColor" name="ASLittleBoyBlue"/>
+                            </state>
+                            <connections>
+                                <action selector="pressTwoButton:" destination="-1" eventType="touchUpInside" id="QuB-8j-Q0v"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r23-w4-CwI" userLabel="Three Button">
+                            <rect key="frame" x="163" y="45" width="50" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="tXd-oJ-soq"/>
+                                <constraint firstAttribute="width" constant="50" id="wt0-I7-QHE"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="SFProText-Semibold" family="SF Pro Text" pointSize="24"/>
+                            <state key="normal" title="3">
+                                <color key="titleColor" name="ASLittleBoyBlue"/>
+                            </state>
+                            <connections>
+                                <action selector="pressThreeButton:" destination="-1" eventType="touchUpInside" id="dHN-cp-DT6"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="eto-hj-NTQ" firstAttribute="top" secondItem="X0i-ff-xCC" secondAttribute="top" constant="15" id="014-l1-NeI"/>
+                        <constraint firstItem="r23-w4-CwI" firstAttribute="top" secondItem="X0i-ff-xCC" secondAttribute="top" constant="45" id="1EB-1N-c3M"/>
+                        <constraint firstItem="r23-w4-CwI" firstAttribute="leading" secondItem="8E7-Mr-sKQ" secondAttribute="trailing" constant="20" id="3iW-gD-95e"/>
+                        <constraint firstItem="r23-w4-CwI" firstAttribute="centerY" secondItem="8E7-Mr-sKQ" secondAttribute="centerY" id="DKS-lk-3Tm"/>
+                        <constraint firstItem="8E7-Mr-sKQ" firstAttribute="centerX" secondItem="eto-hj-NTQ" secondAttribute="centerX" id="DM5-re-8db"/>
+                        <constraint firstItem="8E7-Mr-sKQ" firstAttribute="leading" secondItem="TBQ-4A-vtv" secondAttribute="trailing" constant="20" id="H6y-rf-ThM"/>
+                        <constraint firstItem="TBQ-4A-vtv" firstAttribute="leading" secondItem="X0i-ff-xCC" secondAttribute="leading" constant="23" id="e9f-T3-scK"/>
+                        <constraint firstItem="8E7-Mr-sKQ" firstAttribute="top" secondItem="eto-hj-NTQ" secondAttribute="bottom" constant="20" id="pnu-SY-0jq"/>
+                        <constraint firstAttribute="bottom" secondItem="r23-w4-CwI" secondAttribute="bottom" constant="15" id="qun-gH-TZB"/>
+                        <constraint firstItem="8E7-Mr-sKQ" firstAttribute="centerY" secondItem="TBQ-4A-vtv" secondAttribute="centerY" id="uEX-vI-4mF"/>
+                        <constraint firstAttribute="trailing" secondItem="r23-w4-CwI" secondAttribute="trailing" constant="23" id="y5z-7Q-KId"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="pnu-SY-0jq"/>
+                        </mask>
+                    </variation>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gk4-dM-c4D" userLabel="Authorize Button">
+                    <rect key="frame" x="109" y="360" width="156" height="42"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="42" id="oK1-oN-Rw1"/>
+                        <constraint firstAttribute="width" constant="156" id="q2x-Et-DPU"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="SFProText-Semibold" family="SF Pro Text" pointSize="20"/>
+                    <state key="normal" title="Authorize">
+                        <color key="titleColor" name="ASLittleBoyBlue"/>
+                    </state>
+                    <connections>
+                        <action selector="pressAuthorizeButton:" destination="-1" eventType="touchUpInside" id="WUX-8A-gGb"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <color key="backgroundColor" name="ASWhite"/>
+            <constraints>
+                <constraint firstItem="GFC-fU-B2k" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="36" id="1Ay-Gc-GzD"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="gk4-dM-c4D" secondAttribute="trailing" constant="110" id="1rr-BE-rQ5"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="X0i-ff-xCC" secondAttribute="bottom" constant="50" id="7Ux-9E-UWN"/>
+                <constraint firstItem="aDg-Yo-Wea" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="80" id="8Bf-wP-x75"/>
+                <constraint firstItem="JzV-hE-PUW" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="36" id="MMg-a8-HhR"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="JzV-hE-PUW" secondAttribute="trailing" constant="36" id="P48-xF-0kv"/>
+                <constraint firstItem="GFC-fU-B2k" firstAttribute="top" secondItem="JzV-hE-PUW" secondAttribute="bottom" constant="30" id="UlX-9L-cal"/>
+                <constraint firstItem="X0i-ff-xCC" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="77" id="aor-H6-sa3"/>
+                <constraint firstItem="gk4-dM-c4D" firstAttribute="top" secondItem="GFC-fU-B2k" secondAttribute="bottom" constant="60" id="gLv-Ls-gQL"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="GFC-fU-B2k" secondAttribute="trailing" constant="36" id="r8D-L8-43C"/>
+                <constraint firstItem="aDg-Yo-Wea" firstAttribute="centerX" secondItem="Q5M-cg-NOt" secondAttribute="centerX" id="vRv-EI-bUR"/>
+                <constraint firstItem="JzV-hE-PUW" firstAttribute="top" secondItem="aDg-Yo-Wea" secondAttribute="bottom" constant="80" id="wgp-gl-ftF"/>
+            </constraints>
+            <point key="canvasLocation" x="-197.59999999999999" y="107.49625187406298"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="ASLittleBoyBlue">
+            <color red="0.50196078431372548" green="0.64313725490196083" blue="0.92941176470588238" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="ASWhite">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
